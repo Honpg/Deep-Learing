@@ -1,4 +1,4 @@
-# Deep Learning Project
+# # Time Series Forecasting for Deep Learning Project
 
 Welcome to the Deep Learning project repository! This project explores various deep learning techniques and their applications.
 
@@ -24,6 +24,7 @@ In this work, we review and evaluate both individual methods and hybrid approach
 The proposed techniques for water level forecasting encompass LSTM models, hybrid models combining CNN, Transformer, LSTM, and AM, and other deep learning statistical models. The performance of these techniques was assessed using hourly data collected from 2008 to April 2015 at the Hung Yen hydrological station. The results from testing on these extensive datasets offer the most specific and accurate evaluations of the models we selected.
 
 ## Data Preprocessing
+Datasets (Vu Quang, Hanoi, and Hung Yen).
 
 Data preprocessing is a crucial step in preparing the dataset for model training. The following steps were undertaken:
 
@@ -44,7 +45,7 @@ This section contains implementations of various neural network architectures, i
 
 **Training**: The model is compiled using the Mean Squared Error (MSE) loss function and the Adam optimizer. Training is conducted with early stopping based on validation loss to avoid overfitting.
 
-**Evaluation**: The model's performance is evaluated using metrics such as Root Mean Squared Error (RMSE), providing a quantitative measure of the model's accuracy.
+**Evaluation**: Performance evaluation metrics including MAE, RMSE, R score, FSD, and NSE, providing a quantitative measure of the model's accuracy.
 
 ## Visualization
 
@@ -90,7 +91,13 @@ python visualize.py --logdir logs/
 
 ## Contributing
 
-We welcome contributions to improve this project. Please fork the repository and create a pull request with your changes. For major changes, please open an issue to discuss what you would like to change.
+We welcome contributions to this project! Please fork the repository and create a pull request with your changes. For major changes, please open an issue to discuss what you would like to change:
+
+**1.Fork the repository.**
+**2.Create a new branch for your feature or bug fix.**
+**3.Make your changes and commit them with clear messages.**
+**4.Push your changes to your forked repository.**
+**5.Submit a pull request with a description of your changes.**
 
 ## Acknowledgments
 Special thanks to all contributors and the open-source community for their valuable resources and tools.
