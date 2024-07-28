@@ -1,4 +1,4 @@
-# # Time Series Forecasting for Deep Learning Project
+## Time Series Forecasting for Deep Learning Project
 
 Welcome to the Deep Learning project repository! This project explores various deep learning techniques and their applications.
 
