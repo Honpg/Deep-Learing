@@ -68,7 +68,12 @@ pip install -r requirements.txt
 To train a model, use the following command:
 
 ```bash
-python train.py --config config.yaml
+python train.py --config config.h5
+```
+
+**or**
+```bash
+python train.py --config config.keras
 ```
 
 ### Evaluating a Model
@@ -89,9 +94,11 @@ We welcome contributions to improve this project. Please fork the repository and
 
 ## Acknowledgments
 Special thanks to all contributors and the open-source community for their valuable resources and tools.
-```bash
 
-```
+**Mentor** : [Prof.Hong Phan Thi Thu](https://scholar.google.com/citations?user=yXkziQIAAAAJ&hl=en&oi=ao)
+
+**Member** : Khoi Nguyen Ta,Van Quoc Hoan Doan
+
 
 
 
